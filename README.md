@@ -1,2 +1,4 @@
 # dhis2-docker
-One line install of DHIS2 with docker-compose
+One line installation of DHIS2 with docker-compose
+
+```docker-compose build && docker-compose up -d```
