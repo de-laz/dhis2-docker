@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    dhis:
+      build: .
+      environment:
+        TERM: 'xterm'
+      ports:
+        - "9999:9999"
+
